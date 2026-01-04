@@ -53,8 +53,7 @@ Trained and compared:
 - XGBoost Regressor
 
 Metrics:
-- MAE: 0.81
-- MAPE: 14.12 %
+- R², MAE, MSE, RMSE, MAPE
 
 ### 7) Hyperparameter Tuning
 - Tuned Random Forest using **RandomizedSearchCV**
@@ -64,7 +63,8 @@ Metrics:
 
 ## Results
 - Best model: **Random Forest (tuned)**  
-- Evaluation metrics: *(fill in from notebook: MAE / RMSE / MAPE / R²)*
+- Evaluation metrics: - MAE: 0.81
+                      - MAPE: 14.12 %
 
 ---
 
